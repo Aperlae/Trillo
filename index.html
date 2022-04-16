@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="assets/favicon.png">
+        
+        <title>Trillo &mdash; Your all-in-one booking app</title>
+    </head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <img src="assets/logo.png" alt="Trillo Logo" class="logo">
+                <form action="#" class="search">
+                    <input type="text" class="search__input" placeholder="Search hotels">
+                    <button class="search__button" aria-label="search" type="button">
+                        <svg class="search__icon">
+                            <use href="assets/sprite.svg#icon-magnifying-glass"></use>
+                        </svg>
+                    </button>
+                </form>
+                
+                <nav class="user-nav">
+                <!-- BOOKMARK ICON -->
+                    <div class="user-nav__icon-box bookmark">
+                        <svg class="user-nav__icon">
+                            <use href="assets/sprite.svg#icon-bookmark"></use>
+                        </svg>
+                        <span class="user-nav__notification">3</span>    
+                <!-- BOOKMARK MENU -->
+                        <div class="bookmark">
+                            <div class="bookmark__menu">
+                                <figure class="bookmark__notification">
+                                    <img src="assets/jonas.jpg" alt="Jonas Schmedtmann" class="bookmark__notification-photo">
+                                    <figcaption class="bookmark__notification-text unread"><span>Jonas Schmedtmann </span>accepted your invite!</figcaption>
+                                </figure>
+                                <figure class="bookmark__notification">
+                                    <img src="assets/user-2.jpg" alt="User 2" class="bookmark__notification-photo">
+                                    <figcaption class="bookmark__notification-text unread"><span>Mary Thomas </span>sent you a friend request!</figcaption>
+                                </figure>
+                                <figure class="bookmark__notification">
+                                    <img src="assets/user-3.jpg" alt="User 3" class="bookmark__notification-photo">
+                                    <figcaption class="bookmark__notification-text unread"><span>Yuri Borg </span>accepted your invite!</figcaption>
+                                </figure>
+                                <figure class="bookmark__notification">
+                                    <img src="assets/user-6.jpg" alt="User 6" class="bookmark__notification-photo">
+                                    <figcaption class="bookmark__notification-text"><span>Lucy Lou </span>sent you a friend request!</figcaption>
+                                </figure>
+                                <figure class="bookmark__notification">
+                                    <img src="assets/user-4.jpg" alt="User 4" class="bookmark__notification-photo">
+                                    <figcaption class="bookmark__notification-text"><span>Sean Gossameer </span>accepted your invite!</figcaption>
+                                </figure>
+                                <figure class="bookmark__notification">
+                                    <img src="assets/user-5.jpg" alt="User 5" class="bookmark__notification-photo">
+                                    <figcaption class="bookmark__notification-text"><span>David Lawrence </span>accepted your invite!</figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                    
+                <!-- CHAT ICON -->
+                    <div class="user-nav__icon-box chat">
+                        <svg class="user-nav__icon">
+                            <use href="assets/sprite.svg#icon-chat"></use>
+                        </svg>
+                        <span class="user-nav__notification">6</span>        
+                <!-- CHAT MENU -->
+                        <div class="chat">
+                            <div class="chat__menu">
+                                <figure class="chat__notification">
+                                    <img src="assets/user-4.jpg" alt="User 4" class="chat__notification-photo">
+                                    <div class="chat__notification-message">
+                                        <figcaption class="chat__notification-name">Sean Gossameer</figcaption>
+                                        <figcaption class="chat__notification-text unread"><em>Welcome!</em></figcaption>
+                                    </div>
+                                </figure>
+                                <figure class="chat__notification">
+                                    <img src="assets/user-6.jpg" alt="User 6" class="chat__notification-photo">
+                                    <div class="chat__notification-message">
+                                        <figcaption class="chat__notification-name">Lucy Lou</figcaption>
+                                        <figcaption class="chat__notification-text unread"><em>Hey Ape, long time no see &#128540;</em></figcaption>
+                                    </div>
+                                </figure>
+                                <figure class="chat__notification">
+                                    <img src="assets/user-5.jpg" alt="User 5" class="chat__notification-photo">
+                                    <div class="chat__notification-message">
+                                        <figcaption class="chat__notification-name">David Lawrence</figcaption>
+                                        <figcaption class="chat__notification-text unread"><em>How can I be of service?</em></figcaption>
+                                    </div>
+                                </figure>
+                                <figure class="chat__notification">
+                                    <img src="assets/user-1.jpg" alt="User 1" class="chat__notification-photo">
+                                    <div class="chat__notification-message">
+                                        <figcaption class="chat__notification-name">Nick Smith</figcaption>
+                                        <figcaption class="chat__notification-text unread"><em>Sure, give me a shout Thursday 9am.</em></figcaption>
+                                    </div>
+                                </figure>
+                                <figure class="chat__notification">
+                                    <img src="assets/user-3.jpg" alt="User 3" class="chat__notification-photo">
+                                    <div class="chat__notification-message">
+                                        <figcaption class="chat__notification-name">Yuri Borg</figcaption>
+                                        <figcaption class="chat__notification-text unread"><em>Anytime man! &#128077;</em></figcaption>
+                                    </div>
+                                </figure>
+                                <figure class="chat__notification">
+                                    <img src="assets/user-5.jpg" alt="User 5" class="chat__notification-photo">
+                                    <div class="chat__notification-message">
+                                        <figcaption class="chat__notification-name">David Lawrence</figcaption>
+                                        <figcaption class="chat__notification-text unread"><em>Welcome to Trillo!</em></figcaption>
+                                    </div>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                
+                <!-- USER -->
+                    <div class="user-nav__user">
+                        <img src="assets/user.jpg" alt="User Photo" class="user-nav__user-photo">
+                        <span class="user-nav__user-name">Aperlae</span>
+                <!-- USER MENU -->
+                        <div class="user-nav__user-menu">
+                            <ul class="user-nav__list">
+                                <li class="user-nav__item">
+                                    <a href="#" class="user-nav__link">
+                                        <svg class="user-nav__link-icon">
+                                            <use href="assets/sprite.svg#icon-user"></use>
+                                        </svg>
+                                        <span>View Profile</span>
+                                    </a>
+                                </li>
+                                <li class="user-nav__item">
+                                    <a href="#" class="user-nav__link">
+                                        <svg class="user-nav__link-icon">
+                                            <use href="assets/sprite.svg#icon-users"></use>
+                                        </svg>
+                                        <span>Friends</span>
+                                    </a>
+                                </li>
+                                <li class="user-nav__item">
+                                    <a href="#" class="user-nav__link">
+                                        <svg class="user-nav__link-icon">
+                                            <use href="assets/sprite.svg#icon-folder"></use>
+                                        </svg>
+                                        <span>Booking History</span>
+                                    </a>
+                                </li>
+                                <li class="user-nav__item">
+                                    <a href="#" class="user-nav__link">
+                                        <svg class="user-nav__link-icon">
+                                            <use href="assets/sprite.svg#icon-phone"></use>
+                                        </svg>
+                                        <span>Support</span>
+                                    </a>
+                                </li>
+                                <li class="user-nav__item">
+                                    <a href="#" class="user-nav__link">
+                                        <svg class="user-nav__link-icon">
+                                            <use href="assets/sprite.svg#icon-cog"></use>
+                                        </svg>
+                                        <span>Settings</span>
+                                    </a>
+                                </li>
+                                <li class="user-nav__item">
+                                    <a href="#" class="user-nav__link">
+                                        <svg class="user-nav__link-icon">
+                                            <use href="assets/sprite.svg#icon-log-out"></use>
+                                        </svg>
+                                        <span>Log Out</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <div class="content">
+                <nav class="sidebar">
+                    <ul class="side-nav">
+                        <li class="side-nav__item side-nav__item--active">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use href="assets/sprite.svg#icon-home"></use>
+                                </svg>
+                                <span>Hotel</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use href="assets/sprite.svg#icon-aircraft-take-off"></use>
+                                </svg>
+                                <span>Flight</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use href="assets/sprite.svg#icon-key"></use>
+                                </svg>
+                                <span>Car Rental</span>
+                            </a>
+                        </li>
+                        <li class="side-nav__item">
+                            <a href="#" class="side-nav__link">
+                                <svg class="side-nav__icon">
+                                    <use href="assets/sprite.svg#icon-map"></use>
+                                </svg>
+                                <span>Tours</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="legal">
+                        &copy; 2022 by Trillo. All rights reserved.
+                    </div>
+                </nav>
+                <main class="hotel-view">
+                    <div class="gallery">
+                        <figure class="gallery__item">
+                            <img srcset="assets/hotel-1-small.jpg 375w, assets/hotel-1.jpg 1500w"
+                                sizes="(max-width: 56.25em) 33vw, (max-width: 28.125em) 32vw, 328px"
+                                alt="hotel pool by night" class="gallery__photo"
+                                src="assets/hotel-1.jpg">
+                            <figcaption class="gallery__caption">Fun Summer Nights</figcaption>
+                        </figure>
+                        <figure class="gallery__item">
+                            <img srcset="assets/hotel-2-small.jpg 375w, assets/hotel-2.jps 1500w"
+                                sizes="(max-width: 56.25em) 33vw, (max-width: 28.125em) 32vw, 328px"
+                                alt="hotel pool by day with sunbeds and umbrellas" class="gallery__photo"
+                                src="assets/hotel-2.jpg">
+                            <figcaption class="gallery__caption">Leisurely Days</figcaption>
+                        </figure>
+                        <figure class="gallery__item">
+                            <img srcset="assets/hotel-3-small.jpg 375w, assets/hotel-3.jpg 1500w"
+                                sizes="(max-width: 56.25em) 33vw, (max-width: 28.125em) 32vw, 328px" 
+                                alt="hotel terrace on a cliff" class="gallery__photo"
+                                src="assets/hotel-3.jpg">
+                            <figcaption class="gallery__caption">Beautiful Sunsets</figcaption>
+                        </figure>
+                    </div>
+                    <div class="overview">
+                        <h1 class="overview__heading">Hotel Las Palmas</h1>
+                        <div class="overview__stars">
+                            <svg class="overview__star-icon">
+                                <use href="assets/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__star-icon">
+                                <use href="assets/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__star-icon">
+                                <use href="assets/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__star-icon">
+                                <use href="assets/sprite.svg#icon-star"></use>
+                            </svg>
+                            <svg class="overview__star-icon">
+                                <use href="assets/sprite.svg#icon-star"></use>
+                            </svg>
+                        </div>
+                        <div class="overview__location">
+                            <svg class="overview__location-icon">
+                                <use href="assets/sprite.svg#icon-location-pin"></use>
+                            </svg>
+                            <button class="btn-inline" aria-label="search" type="button">
+                                Albufeira, Portugal
+                            </button>
+                        </div>
+                        <div class="overview__rating">
+                            <div class="overview__rating-average">8.6</div>
+                            <div class="overview__rating-count">429 votes</div>
+                        </div>
+                    </div>
+                    <div class="detail">
+                        <div class="description">
+                            <p class="paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                Animi nisi dignissimos debitis ratione sapiente saepe.
+                            </p>
+                            <p>
+                                Accusantium cumque, quas, ut corporis incidunt deserunt 
+                                quae architecto voluptate.
+                            </p>
+                            <ul class="list">
+                                <li class="list__item">Close to the beach</li>
+                                <li class="list__item">Breakfast included</li>
+                                <li class="list__item">Free airport shuttle</li>
+                                <li class="list__item">Free wifi in all rooms</li>
+                                <li class="list__item">Airconditioning and heating</li>
+                                <li class="list__item">Pets allowed</li>
+                                <li class="list__item">We speak all languages</li>
+                                <li class="list__item">Perfect for families</li>
+                            </ul>
+                            <div class="recommend">
+                                <p class="recommend__count">
+                                    Lucy and 3 other friends recommend this hotel.
+                                </p>
+                                <div class="recommend__friends">
+                                    <img src="assets/user-3.jpg" alt="user 3" class="recommend__photo">
+                                    <img src="assets/user-4.jpg" alt="user 4" class="recommend__photo">
+                                    <img src="assets/user-5.jpg" alt="user 5" class="recommend__photo">
+                                    <img src="assets/user-6.jpg" alt="user 6" class="recommend__photo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="user-reviews">
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                    Fuga doloremque architecto dicta animi, totam, itaque officia ex.
+                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="assets/user-1.jpg" alt="user 1" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Nick Smith</p>
+                                        <p class="review__user-date">Feb 23rd, 2022</p>
+                                    </div>
+                                    <div class="review__rating">7.8</div>
+                                </figcaption>
+                            </figure>
+
+                            <figure class="review">
+                                <blockquote class="review__text">
+                                    Lorem ipsum dolor sit amet, consectetur 
+                                    adipisicing elit. Fuga doloremque architecto dicta animi.                                </blockquote>
+                                <figcaption class="review__user">
+                                    <img src="assets/user-2.jpg" alt="user 2" class="review__photo">
+                                    <div class="review__user-box">
+                                        <p class="review__user-name">Mary Thomas</p>
+                                        <p class="review__user-date">Sept 13th, 2021</p>
+                                    </div>
+                                    <div class="review__rating">9.3</div>
+                                </figcaption>
+                            </figure>
+                            <button class="btn-inline" type="button">Show all <span>&rarr;</span></button>
+                        </div>
+                    </div>
+                    <div class="cta">
+                        <h2 class="cta__book-now">
+                            Good news! We have 4 free rooms for your selected date!
+                        </h2>
+                        <button class="btn" type="button">
+                            <span class="btn__visible">Book now</span>
+                            <span class="btn__invisible">Only 4 rooms left</span>
+                        </button>
+                    </div>
+                    <div class="copyright">
+                        <p class="copyright__text">
+                            Built by <a href="https://github.com/Aperlae" target="_blank" rel="noopener noreferrer"  
+                            class="copyright__link">Aperlae</a> at Jonas Schmedtmann's online course 
+                            <a href="https://www.udemy.com/share/101Wkw3@ZrKGlgYmkP60LSwHcS3z3UOU8VYVK3Qiyl9NV5xLNLnZ8nJU5KgMrUArS1rEvcvS1A==/" target="_blank"
+                            rel="noopener noreferrer" class="copyright__link"> Advanced CSS and Sass</a>.
+                            <strong>&copy;JONAS SCHMEDTMANN.</strong> You are 100% allowed to use this webpage for both personal and
+                            commercial use, but not to claim it as your own design.
+                            A credit to the original author, Jonas Schmedtmann, is of course highly appreciated!
+                        </p>
+                    </div>
+                </main>
+            </div>
+        </div>
+    </body>
+</html>
