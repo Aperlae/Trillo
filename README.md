@@ -5,17 +5,15 @@ This is the user-interface of a mockup booking app built with just HTML and CSS 
 
 ## Table of Contents
 
-  -[Overview](#overview)
-    + [Features](#features)
-    + [Screenshots](#screenshots)
-
-  -[The Process](#process)
-    + [Built with](#built-with)
-    + [What I learned](#what-I-learned)
-    + [Continued Development](#continued-development)
-    + [Useful Resources](#useful-resources)
-
-  -[Author](#author)
+- [Overview](#overview)
+  - [Features](#features)
+  - [Screenshots](#screenshots)
+- [The Process](#the-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
+- [Author and Acknowledgment](#author-and-acknowledgment)
 
 ## Overview
 
@@ -50,14 +48,14 @@ This is the user-interface of a mockup booking app built with just HTML and CSS 
 
 ### Built with
 
--Some CSS Custom Properties
--SASS Features:
-  +SCSS syntax
-  +Variables
-  +Mixins
-  +nesting
-  +@use instead of @import
-  +npm scripts and dependencies
+- Some CSS Custom Properties
+- SASS Features:
+  - SCSS syntax
+  - Variables
+  - Mixins
+  - nesting
+  - @use instead of @import
+  - npm scripts and dependencies
 
 ### What I learned
 
@@ -226,17 +224,17 @@ This project focused mostly on flexbox, I would have built it mobile first but I
 }
 ```
 
-### Continuous Development
+### Continued Development
 
 I did not build this project with accessibility in mind and going back over it I realised that there's loads I could have done to make it a bit more user friendly so I need to work harder at that on my next project right from the start.
 
-### Useful Links
+### Useful Resources
 
-[Jonas'Resources](https://codingheroes.io/resources/) - Plenty of handy resources here including tools, icons, fonts, colors etc
-[Kevin Powell Sass Compile](https://www.youtube.com/watch?v=o4cECvhrBo8) - Used this video and Eckles script below to help me get set up with compiling Sass in my environment
-[Stephanie Eckles Minimum Static Site Setup with Sass](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
-[Keviin Powell Stop using @import with Sass](https://youtu.be/CR-a8upNjJ0) - I came across this while browsing and decided I should start getting comfortable with it from now
+- [Jonas'Resources](https://codingheroes.io/resources/) - Plenty of handy resources here including tools, icons, fonts, colors etc
+- [Kevin Powell Sass Compile](https://www.youtube.com/watch?v=o4cECvhrBo8) - Used this video and Eckles script below to help me get set up with compiling Sass in my environment
+- [Stephanie Eckles Minimum Static Site Setup with Sass](https://thinkdobecreate.com/articles/minimum-static-site-sass-setup/)
+- [Kevin Powell Stop using @import with Sass](https://youtu.be/CR-a8upNjJ0) - I came across this while browsing and decided I should start getting comfortable with it from now
 
-## Author
+## Author and Acknowledgment
 
 Full design credits go to [Jonas Schmedtmann "Advanced CSS and SASS: Flexbox, Grid, animations and more" course on Udemy](https://www.udemy.com/course/advanced-css-and-sass/) with some minor tweaks of my own.
