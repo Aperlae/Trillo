@@ -30,19 +30,19 @@ This is the user-interface of a mockup booking app built with just HTML and CSS 
 
 #### Desktop
 
-![Screenshot-desktop.png]()
-![User-nav.gif]()
-![Gallery.gif]()
-![Side-nav.gif]()
+![Screenshot-desktop.png](https://github.com/Aperlae/Trillo/blob/main/assets/Screenshot-desktop.png)
+![User-nav.gif](https://github.com/Aperlae/Trillo/blob/main/assets/User-nav.gif)
+![Gallery.gif](https://github.com/Aperlae/Trillo/blob/main/assets/Gallery.gif)
+![Side-nav.gif](https://github.com/Aperlae/Trillo/blob/main/assets/Side-nav.gif)
 
 #### Tablet
 
-![Screenshot-tablet-landscape.png]() iPad Air 1180x820
-![Screenshot-tablet-portrait.png]() iPad Air 820x1180
+![Screenshot-tablet-landscape.png](https://github.com/Aperlae/Trillo/blob/main/assets/Screenshot-tablet-landscape.png) iPad Air 1180x820
+![Screenshot-tablet-portrait.png](https://github.com/Aperlae/Trillo/blob/main/assets/Screenshot-tablet-portrait.png) iPad Air 820x1180
 
 #### Mobile
 
-![Screenshot-mobile.png]()
+![Screenshot-mobile.png](https://github.com/Aperlae/Trillo/blob/main/assets/Screenshot-mobile.png)
 
 ## The Process
 
